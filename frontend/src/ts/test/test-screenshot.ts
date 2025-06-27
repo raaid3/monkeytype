@@ -282,3 +282,7 @@ $(".pageTest").on("click", "#saveScreenshotButton", (event) => {
     void copyToClipboard();
   }
 });
+
+$(".pageTest").on("click", "#downloadScreenshotButton", (event) => {
+  void download();
+});

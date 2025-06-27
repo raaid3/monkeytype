@@ -923,6 +923,7 @@ export async function update(
     $("main #result #showWordHistoryButton").addClass("hidden");
     $("main #result #watchReplayButton").addClass("hidden");
     $("main #result #saveScreenshotButton").addClass("hidden");
+    $("main #result #downloadScreenshotButton").addClass("hidden");
 
     console.log(
       `Test Completed: ${result.wpm} wpm ${result.acc}% acc ${result.rawWpm} raw ${result.consistency}% consistency`
@@ -937,6 +938,7 @@ export async function update(
     $("main #result #showWordHistoryButton").removeClass("hidden");
     $("main #result #watchReplayButton").removeClass("hidden");
     $("main #result #saveScreenshotButton").removeClass("hidden");
+    $("main #result #downloadScreenshotButton").removeClass("hidden");
   }
 
   if (window.scrollY > 0) {
